@@ -8,7 +8,7 @@ A **framework** that bridges **QA and development teams**, enabling **test sched
 ## 🏗️ **Core Entities**  
 
 ### ✅ **QA Tests**  
-📝 **Define and manage QA test cases efficiently.**  
+**Define and manage QA test cases efficiently.**  
 - **Title & Description** – Clearly document test cases.  
 - **Steps** – Define step-by-step execution.  
 - **Automated Test Trigger** – Run using CLI (e.g., `python3.9 test_runner.py --arg1 value1 ...`).  
@@ -16,14 +16,14 @@ A **framework** that bridges **QA and development teams**, enabling **test sched
 ---
 
 ### 🏗 **Dev Builds**  
-🔎 **Track and preview application versions & builds.**  
+**Track and preview application versions & builds.**  
 - **Daily Build Updates** – Example: `1.0.0-100` today, `1.0.0-101` tomorrow.  
 - **Fetched from 3rd Party APIs** – Displayed within the framework.  
 
 ---
 
 ### ⚙️ **Resources Management**  
-🖥️ **Manage servers & resource allocation for test execution.**  
+**Manage servers & resource allocation for test execution.**  
 - **Pool** → Contains clusters.  
 - **Cluster** → Contains multiple servers.  
 - **Server** → Identified by an **IP address**.  
@@ -32,7 +32,7 @@ A **framework** that bridges **QA and development teams**, enabling **test sched
 ---
 
 ### 📅 **Scheduler**  
-📌 **Automate test execution on development builds.**  
+**Automate test execution on development builds.**  
 - **One-time & recurring test runs**.  
 - **Modify, delete, or activate/inactivate jobs**.  
 - **Priority-based scheduling algorithm (1-10 levels).**  
@@ -40,14 +40,14 @@ A **framework** that bridges **QA and development teams**, enabling **test sched
 ---
 
 ### 📊 **Executions**  
-📡 **Monitor active jobs and execution status.**  
+**Monitor active jobs and execution status.**  
 - **Live status updates** – Waiting, Running, Available.  
 - **Track job progress & resource allocation**.  
 
 ---
 
 ### 📜 **Reports**  
-📑 **Generate detailed reports post-execution.**  
+**Generate detailed reports post-execution.**  
 - **Includes Test, Version-Build, Cluster Details, Test Result, Failure Reason, Runtime, Date, and User.**  
 - **Open a bug ticket** (e.g., Jira Integration).  
 - **Send reports to the user who triggered the job.**  
@@ -55,7 +55,7 @@ A **framework** that bridges **QA and development teams**, enabling **test sched
 ---
 
 ## 🎁 **Bonus Feature: AI-Powered Analysis**  
-🧠 **Leverage AI to analyze execution logs** and suggest potential failure causes:  
+**Leverage AI to analyze execution logs** and suggest potential failure causes:  
 - **Real version-build bug**  
 - **Test issue**  
 - **Cluster-related problem**  
